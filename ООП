@@ -1,15 +1,15 @@
 # Test
-Class Animals():
+сlass Animals():
 
-class Dog():
-Def__init__(self,name,age):
+class Dog(Animals):
+Def __init__(self,name,age):
 """Атрибуты имя и возраст"""
 self.name = name
 self.age = age
 Def run(self):
 "" "Собака бежит" ""
 Def role(self):
-"" "Собака перекатывается" ""
+"""Собака перекатывается"""
 Def jump(self):
-"" "Собака прыгает" ""
-Print("Собака создана")
+"""Собака прыгает"""
+print("Собака создана")
