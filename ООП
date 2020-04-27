@@ -1,0 +1,8 @@
+# Test
+Class Animals():
+
+class Dog():
+Def__init__(self,name,age):
+self.name = name
+self.age = age
+Print("собака создана")
